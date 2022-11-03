@@ -5,10 +5,17 @@ contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 [params]
-algolia_docsearch = true
-offlineSearch = false
-sidebar_search_disable = true
+algolia_docsearch = false
+offlineSearch = true
+offlineSearchSummaryLength = 200
+offlineSearchMaxResults = 25
+sidebar_search_disable = false
 
 [module]
 proxy = "direct"

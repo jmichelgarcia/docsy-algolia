@@ -1,3 +1,7 @@
 node_modules/
 public/
 resources/
+content/.DS_Store
+content/en/.DS_Store
+content/en/docs/.DS_Store
+resources/_gen/assets/scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68.content
